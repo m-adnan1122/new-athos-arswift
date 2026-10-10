@@ -47,7 +47,7 @@ export default function MenuDrawer() {
             <motion.nav
               className="absolute inset-y-0 right-0 flex w-[min(88vw,24rem)] flex-col border-l border-white/10 bg-ink px-6 pb-7 pt-6 shadow-2xl shadow-black/40"
               id="mobile-drawer"
-              aria-label="Mobile navigation"
+              aria-label="Navigationsmenü"
               role="dialog"
               aria-modal="true"
               variants={{ hidden: { x: "100%" }, visible: { x: 0 } }}
@@ -70,7 +70,7 @@ export default function MenuDrawer() {
                   {label}<span className="font-sans text-base text-gold">→</span>
                 </motion.a>
               ))}
-              <p className="mt-auto pt-8 font-serif text-sm italic text-gold">Authentic Mediterranean Kitchen</p>
+              <p className="mt-auto pt-8 font-serif text-sm italic text-gold">Griechische Küche mit Herz</p>
             </motion.nav>
           </motion.div>
         )}
