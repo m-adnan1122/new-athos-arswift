@@ -20,7 +20,7 @@ export default function KontaktPage() {
             </div>
           </Entrance>
           <Entrance className="relative h-[260px] overflow-hidden rounded-[2rem] rounded-bl-sm border border-white/10 shadow-2xl shadow-black/30 sm:h-[340px] md:h-[360px] lg:h-[420px]" delay={0.2}>
-            <Image src="/home/hero.png" alt="Der stimmungsvoll beleuchtete Gastraum im Restaurant Athos" fill priority sizes="(max-width: 768px) 100vw, 48vw" className="object-cover object-center" />
+            <Image src="/kontact-hero.png" alt="Stimmungsbild eines griechisch inspirierten Gastraums" fill priority sizes="(max-width: 768px) 100vw, 48vw" className="object-cover object-center" />
             <div className="absolute inset-0 bg-gradient-to-t from-ink/75 via-transparent to-transparent" />
             <span className="absolute bottom-5 left-5 font-serif text-lg italic text-sand">Ein Stück Griechenland in Strausberg</span>
           </Entrance>
@@ -41,9 +41,9 @@ export default function KontaktPage() {
             <p className="mb-2 font-serif text-sm text-gold">Restaurant Athos</p>
             <h2 className="font-serif text-3xl text-sand">Besuchen Sie uns</h2>
             <div className="mt-6 grid gap-5 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
-              <div><h3 className="text-[10px] font-semibold tracking-[0.14em] text-gold">ADRESSE</h3><p className="mt-2 text-sm leading-6 text-sand/80">Elisabethstraße 19<br />15344 Strausberg</p></div>
+              <div><h3 className="text-[10px] font-semibold tracking-[0.14em] text-gold">ANSCHRIFT</h3><p className="mt-2 text-sm leading-6 text-sand/80">Elisabethstraße 19<br />15344 Strausberg</p></div>
               <div><h3 className="text-[10px] font-semibold tracking-[0.14em] text-gold">TELEFON</h3><a className="mt-2 inline-block text-sm text-sand/80 transition hover:text-gold" href="tel:+493341390650">03341 / 39 06 50</a></div>
-              <div className="sm:col-span-2 lg:col-span-1 xl:col-span-2"><h3 className="text-[10px] font-semibold tracking-[0.14em] text-gold">ÖFFNUNGSZEITEN</h3><div className="mt-2 space-y-2 text-xs"><div className="flex justify-between gap-4"><span className="text-muted">Mittwoch – Freitag</span><span>16:00 – 22:00</span></div><div className="flex justify-between gap-4"><span className="text-muted">Samstag</span><span>12:00 – 22:00</span></div><div className="flex justify-between gap-4"><span className="text-muted">Montag</span><span className="text-gold">Ruhetag</span></div></div></div>
+              <div className="sm:col-span-2 lg:col-span-1 xl:col-span-2"><h3 className="text-[10px] font-semibold tracking-[0.14em] text-gold">ÖFFNUNGSZEITEN</h3><div className="mt-2 space-y-2 text-xs"><div className="flex justify-between gap-4"><span className="text-muted">Mittwoch – Freitag</span><span>16:00 – 22:00 Uhr</span></div><div className="flex justify-between gap-4"><span className="text-muted">Samstag und Sonntag</span><span>12:00 – 22:00 Uhr</span></div><p className="pt-1 text-[10px] leading-5 text-muted">Feiertagszeiten bitte telefonisch erfragen.</p></div></div>
             </div>
           </RevealSection>
 

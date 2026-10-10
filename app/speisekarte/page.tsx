@@ -30,11 +30,11 @@ export default function SpeisekartePage() {
   return (
     <main className="min-h-screen overflow-hidden bg-ink text-sand">
       <SiteHeader />
-      <section className="relative isolate flex min-h-[330px] items-end overflow-hidden sm:min-h-[390px] lg:min-h-[460px]">
-        <Image src="/home/1.png" alt="Gegrillter Oktopus mit mediterranen Kräutern" fill priority sizes="100vw" className="object-cover object-center" />
+      <section className="relative isolate flex min-h-[330px] items-center overflow-hidden sm:min-h-[390px] lg:min-h-[460px]">
+        <Image src="/speisekarte-hero.png" alt="Gegrillter Oktopus auf cremigem Fava-Püree mit Kapern und Kräutern" fill priority sizes="100vw" className="object-cover object-[62%_center]" />
         <div className="absolute inset-0 bg-gradient-to-r from-ink/90 via-ink/50 to-ink/10" />
         <div className="absolute inset-0 bg-gradient-to-t from-ink/90 via-transparent to-ink/10" />
-        <Entrance className="relative z-10 mx-auto w-full max-w-6xl px-5 pb-10 sm:px-8 sm:pb-14 lg:px-10" delay={0.12}>
+        <Entrance className="relative z-10 mx-auto w-full max-w-6xl px-5 py-10 sm:px-8 lg:px-10" delay={0.12}>
           <p className="mb-2 font-serif text-sm text-gold">Authentisch griechisch</p>
           <h1 className="font-serif text-4xl leading-tight tracking-tight text-sand sm:text-5xl lg:text-6xl">Unsere Speisekarte</h1>
           <p className="mt-3 max-w-lg text-sm leading-6 text-sand/85 sm:text-base">Frische Zutaten, ehrliche Rezepte und mediterrane Aromen – jeden Tag mit Sorgfalt zubereitet.</p>
